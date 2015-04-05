@@ -1,6 +1,6 @@
 {
   "name": "librank",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ranking calculation algorith for tlks.io",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,7 @@
     "gulp-rename": "^1.2.0",
     "gulp-sourcemaps": "^1.5.1",
     "gulp-uglify": "^1.1.0",
+    "istanbul": "^0.3.13",
     "mocha": "^2.2.1",
     "should": "^5.2.0"
   }
