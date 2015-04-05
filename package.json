@@ -1,6 +1,6 @@
 {
   "name": "librank",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ranking calculation algorith for tlks.io",
   "main": "index.js",
   "scripts": {
