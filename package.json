@@ -1,6 +1,6 @@
 {
   "name": "librank",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "ranking calculation algorith for tlks.io",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/tlksio/librank",
   "devDependencies": {
+    "bower": "^1.4.1",
     "del": "^1.1.1",
     "gulp": "^3.8.11",
     "gulp-concat": "^2.5.2",
