@@ -1,0 +1,24 @@
+{
+  "name": "librank",
+  "main": "index.js",
+  "version": "0.0.7",
+  "homepage": "https://github.com/tlksio/librank",
+  "authors": [
+    "Raül Pérez <repejota@gmail.com>"
+  ],
+  "description": "ranking calculation algorith for tlks.io",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "tlksio"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
