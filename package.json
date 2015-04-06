@@ -1,10 +1,10 @@
 {
   "name": "librank",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "ranking calculation algorith for tlks.io",
   "main": "index.js",
   "scripts": {
-    "test": "make cover"
+    "test": "make all"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "gulp-sourcemaps": "^1.5.1",
     "gulp-uglify": "^1.1.0",
     "istanbul": "^0.3.13",
+    "jshint-stylish": "^1.0.1",
     "mocha": "^2.2.1",
     "should": "^5.2.0"
   }
