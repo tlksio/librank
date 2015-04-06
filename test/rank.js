@@ -25,7 +25,7 @@ describe("Rank calculation", function() {
         });
 
         it('is correct', function(done) {
-            should.equal(0.1032100580982522, score);
+            should.equal(0.1137595839488455, score);
             done();
         });
 
