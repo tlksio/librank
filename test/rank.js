@@ -3,6 +3,7 @@ var should = require("should");
 var rank = require("../index.js").rank;
 
 describe("Rank calculation", function() {
+    "use strict";
 
     var points = 72;
 
@@ -41,16 +42,16 @@ describe("Rank calculation", function() {
         });
 
         it('decreases rank if it is older', function(done) {
-            var older_hours = hours + 1;
-            var older_score = rank.rank(points, older_hours, gravity);
-            (score > older_score).should.be.true;
+            var olderHours = hours + 1;
+            var olderScore = rank.rank(points, olderHours, gravity);
+            (score > olderScore).should.be.true;
             done();
         });
 
         it('increases rank if it is fresh', function(done) {
-            var earlier_hours = hours - 1;
-            var earlier_score = rank.rank(points, earlier_hours, gravity);
-            (score < earlier_score).should.be.true;
+            var earlierHours = hours - 1;
+            var earlierScore = rank.rank(points, earlierHours, gravity);
+            (score < earlierScore).should.be.true;
             done();
         });
 
